@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Guitar Shop</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="scripts/validate.js"></script>
+</head>
+<body>
+
+<nav id="nav1">
+    <h1>The Guitar Shop | Order</h1>
+
+
+    <div id="btncontainer">
+    <button class="navbtn"><a href="index.html">Home</a> </button>
+        <button class="navbtn"><a href="checkout.html">Order</a> </button>
+    </div>
+</nav>
+
+<main>
+
+    <div id="formcontainer">
+
+<form id="form1"  onsubmit="return check_info();">
+
+    <label class="labels" for="firstname">Firstname*</label>
+    <input type="text" id="firstname">
+
+    <label class="labels" for="lastname">Lastname*</label>
+    <input type="text" id="lastname">
+
+  <label class="labels" for="email">Email address*</label>
+    <input type="text" id="email">
+
+    <label class="labels" for="phonenumber">Phonenumber</label>
+    <input type="text" id="phonenumber">
+
+    <label class="labels" for="street">street adress*</label>
+    <input type="text" id="street">
+
+    <label class="labels" for="zipcode">Zip Code*</label>
+    <input type="text" id="zipcode">
+
+    <label class="labels" for="city">City*</label>
+    <input type="text" id="city">
+
+    <label class="labels" for="Comments">Comments</label>
+    <input type="text" id="Comments">
+
+
+
+    <button id="btn1" type="submit">Submit</button>
+
+</form>
+
+
+
+
+    </div>
+
+
+</main>
+
+
+
+
+
+
+</body>
+</html>
